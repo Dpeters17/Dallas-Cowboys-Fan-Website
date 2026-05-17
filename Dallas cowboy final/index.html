@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dallas Cowboys</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Dallas Cowboys</h1>
+        <p>America's Team</p>
+    </header>
+
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#players">Players</a></li>
+            <li><a href="#stadium">Stadium</a></li>
+            <li><a href="#fans">Fans</a></li>
+        </ul>
+    </nav>
+
+    <button onclick="changeTheme()">
+    Change Theme
+    </button> 
+
+
+    <section id="home" class="hero">
+
+        <h2>Welcome Cowboys Fans</h2>
+
+        <p>
+            Learn about the Dallas Cowboys, one of the most famous and successful
+            teams in NFL history. This website talks about the team's history,
+            championships, players, stadium, and loyal fanbase.
+        </p>
+
+    </section>
+
+    <section id="history">
+
+        <h2>Team History</h2>
+
+        <div class="container">
+
+            <div class="card">
+
+                <img src="1.jpg" alt="Dallas Cowboys logo">
+
+                <h3>Founded</h3>
+
+                <p>
+                    The Dallas Cowboys joined the NFL in 1960 and quickly became
+                    one of the most popular football teams in America. The team
+                    became known for legendary players, successful seasons, and
+                    a large fanbase across the country.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <img src="2.jpg" alt="Cowboys Super Bowl trophies">
+
+                <h3>Championships</h3>
+
+                <p>
+                    The Cowboys have won five Super Bowl championships and are
+                    considered one of the greatest franchises in NFL history.
+                    Their success during the 1970s and 1990s helped make the
+                    team famous around the world.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="players">
+
+        <h2>Players</h2>
+
+        <div class="container">
+
+            <div class="card">
+
+                <img src="3.jpg" alt="Dallas Cowboys player">
+
+                <h3>Star Players</h3>
+
+                <p>
+                    The Cowboys have had many talented players throughout their
+                    history. The team is known for strong quarterbacks, great
+                    defenses, and exciting plays during important games.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <img src="4.jpg" alt="Cowboys touchdown">
+
+                <h3>Big Moments</h3>
+
+                <p>
+                    Cowboys games are filled with exciting moments and memorable
+                    touchdowns. Fans enjoy watching rivalries, close games, and
+                    important NFL matchups every season.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+  
+    <section id="stadium">
+
+        <h2>AT&T Stadium</h2>
+
+        <div class="container">
+
+            <div class="card">
+
+                <img src="5.jpg" alt="AT&T Stadium">
+
+                <h3>Home Stadium</h3>
+
+                <p>
+                    AT&T Stadium is located in Arlington, Texas and is home to
+                    the Dallas Cowboys. The stadium is known for its large size,
+                    modern design, and massive video board.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <img src="6.jpg" alt="Dallas Cowboys fans">
+
+                <h3>Cowboys Fans</h3>
+
+                <p>
+                    The Dallas Cowboys have one of the biggest fanbases in sports.
+                    Fans support the team all across the United States and are
+                    proud to wear Cowboys colors every season.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+<section>
+
+    <h2>Highlight Video</h2>
+
+    <div class="video">
+
+    <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/qLBGJPw-dSM"
+        title="Dallas Cowboys Highlights"
+        frameborder="0"
+        allowfullscreen>
+    </iframe>
+
+</div>
+
+</section>
+
+        
+        <p>
+
+            <a href="https://www.dallascowboys.com" target="_blank">
+                Dallas Cowboys Website
+            </a>
+
+            <a href="https://www.nfl.com" target="_blank">
+                NFL Website
+            </a>
+
+            <a href="https://www.espn.com/nfl/" target="_blank">
+                ESPN NFL
+            </a>
+
+        </p>
+
+    </section>
+
+  
+    <section id="fans">
+
+        <h2>Fan Form</h2>
+
+        <form>
+
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+
+            <label for="player">Favorite Player</label>
+            <input type="text" id="player">
+
+            <label for="message">Message</label>
+            <textarea id="message"></textarea>
+
+            <button type="button" onclick="showMessage()">
+                Submit
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <footer>
+
+        <p>Made by Daniel Peters
+
+        <p>May 2026</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
